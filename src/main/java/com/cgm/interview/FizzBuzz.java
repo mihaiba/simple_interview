@@ -11,23 +11,4 @@ For other numbers just print the number.
 */
 public class FizzBuzz {
 
-    public static String printMsg(int number) {
-        String resultMsg = "";
-        if (number % 3 == 0) {
-            resultMsg += "Fizz";
-        }
-        if (number % 5 == 0) {
-            resultMsg += "Buzz";
-        }
-
-        if (number % 3 != 0 && number % 5 != 0) {
-            resultMsg = String.valueOf(number);
-        }
-        return resultMsg;
-    }
-
-
-    public static void main(String[] args) {
-        System.out.println(FizzBuzz.printMsg(0));
-    }
 }
